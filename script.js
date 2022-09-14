@@ -12,7 +12,14 @@ const button = document.querySelector('#btn');
 button.addEventListener('click', login);
 
 // requisito 18
-
+const labelinfos = document.querySelector('#agreement');
 function submit() {
-  
+  const buttonSubmit = document.querySelector('#submit-btn');
+  if (labelinfos.checked === true) {
+    buttonSubmit.removeAttribute('disabled');
+  } else {
+    buttonSubmit.setAttribute('disabled', 'disabled');
+    console.log('aaaa')
+  }
 }
+labelinfos.addEventListener('click', submit);
