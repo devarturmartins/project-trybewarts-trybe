@@ -22,3 +22,17 @@ function submit() {
   }
 }
 labelinfos.addEventListener('click', submit);
+
+// requisito 20
+const counter = document.querySelector('#counter');
+const textarea = document.querySelector('#textarea');
+const maxCharacters = 500;
+function counterCharacters(event) {
+  const descricao = textarea.value.length;
+  const restante = maxCharacters - descricao;
+  counter.innerText = restante;
+  if (restante === 0) {
+    event.preventDefault();
+  }
+}
+textarea.addEventListener('keyup', counterCharacters);
