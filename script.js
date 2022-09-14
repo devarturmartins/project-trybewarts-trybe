@@ -19,7 +19,6 @@ function submit() {
     buttonSubmit.removeAttribute('disabled');
   } else {
     buttonSubmit.setAttribute('disabled', 'disabled');
-    console.log('aaaa')
   }
 }
 labelinfos.addEventListener('click', submit);
