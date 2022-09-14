@@ -22,8 +22,13 @@ main {
   display: flex;
   flex-flow: column wrap;
   width: 675px;
-  /* height: 50px; */
+  height: 420px;
+}
 
+#conteiner {
+  display: flex;
+  flex-wrap: wrap;
+  width: 675px;
 }
 
 .trybewarts-login {
