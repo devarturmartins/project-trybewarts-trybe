@@ -23,16 +23,11 @@ main {
   flex-flow: column wrap;
   width: 675px;
   height: 150px;
-  border: 1px solid;
-}
-
-#evaluation-form input {
-  border: 1px solid;
 }
 
 #evaluation-form #input-lastname {
   position: absolute;
-  top: 258px;
+  top: 257px;
   left: 250px;
 
 }
