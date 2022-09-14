@@ -43,3 +43,7 @@ main {
 #label-family {
   flex-direction: column;
 }
+
+#agreement-input {
+  display: flex;
+}
