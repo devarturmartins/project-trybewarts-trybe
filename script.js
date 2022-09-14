@@ -10,3 +10,9 @@ function login() {
 }
 const button = document.querySelector('#btn');
 button.addEventListener('click', login);
+
+// requisito 18
+
+function submit() {
+  
+}
