@@ -1,5 +1,5 @@
 body {
-  background-color: black;
+
 }
 
 .header {
@@ -7,14 +7,13 @@ body {
   background-color: rgb(50, 167, 145);
 }
 
+
 .login {
   display: flex;
 }
 
 .trybewarts-header-logo {
-  /* width: 100px;
-  height: 100px; */
-  background-color: black;
+  display: flex;
 }
 
 #evaluation-form {
