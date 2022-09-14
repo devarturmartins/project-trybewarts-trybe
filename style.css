@@ -1,6 +1,16 @@
+body {
+  background-color: black;
+}
+
 .header {
   display: flex;
   background-color: rgb(50, 167, 145);
+}
+
+.trybewarts-header-logo {
+  width: 100px;
+  height: 100px;
+  background-color: black;
 }
 
 #evaluation-form {
