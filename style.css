@@ -22,7 +22,6 @@ main {
   display: flex;
   flex-flow: column wrap;
   width: 675px;
-  height: 420px;
 }
 
 #conteiner {
