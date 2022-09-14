@@ -1,3 +1,7 @@
+body {
+  background-color: black;
+}
+
 .header {
   display: flex;
   background-color: rgb(50, 167, 145);
@@ -7,3 +11,16 @@
   display: flex;
 }
 
+.trybewarts-header-logo {
+  /* width: 100px;
+  height: 100px; */
+  background-color: black;
+}
+
+#evaluation-form {
+  flex-direction: column;
+}
+
+.trybewarts-login {
+    display: flex;
+}
