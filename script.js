@@ -13,7 +13,6 @@ const labelinfos = document.querySelector('#agreement');
 const buttonSubmit = document.querySelector('#submit-btn');
 const formData = document.getElementById('form-data');
 
-
 // requisito 3
 const button = document.querySelector('#btn');
 function login() {
