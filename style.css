@@ -47,3 +47,7 @@ main {
 #agreement-input {
   display: flex;
 }
+
+#form-data {
+  width: 675px;
+}

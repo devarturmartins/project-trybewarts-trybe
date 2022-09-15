@@ -28,7 +28,7 @@
             <label for="input-name">
               <input id="input-name" placeholder="Nome" type="text" name="input-name">
             </label>
-            <label for="input-last-name">
+            <label for="input-lastname">
               <input id="input-lastname" placeholder="Sobrenome" type="text" name="input-last-name">
             </label>
           </div>
@@ -45,32 +45,30 @@
             </select>
           </div>
       </div>
-        
-
         <label id="label-family" for="">Qual sua família?</label>
-        <input type="radio" value="Frontend" name="family" id="">Frontend
-        <input type="radio" value="Backend" name="family" id="">Backend
-        <input type="radio" value="FullStack" name="family" id="">FullStack
+        <input type="radio" value="Frontend" name="family" class="radio-family">Frontend
+        <input type="radio" value="Backend" name="family" class="radio-family">Backend
+        <input type="radio" value="FullStack" name="family" class="radio-family">FullStack
 
         <label for="" id="label-content">Qual conteúdo você está com mais vontade de aprender?</label>
-        <input type="checkbox" class="subject" value="HoFs" name="" id="">HoFs
-        <input type="checkbox" class="subject" value="Jest" name="" id="">Jest
-        <input type="checkbox" class="subject" value="Promises" name="" id="">Promises
-        <input type="checkbox" class="subject" value="React" name="" id="">React
-        <input type="checkbox" class="subject" value="SQL" name="" id="">SQL
-        <input type="checkbox" class="subject" value="Python" name="" id="">Python
+        <input type="checkbox" class="subject" value="HoFs" name="" >HoFs
+        <input type="checkbox" class="subject" value="Jest" name="" >Jest
+        <input type="checkbox" class="subject" value="Promises" name="" >Promises
+        <input type="checkbox" class="subject" value="React" name="" >React
+        <input type="checkbox" class="subject" value="SQL" name="" >SQL
+        <input type="checkbox" class="subject" value="Python" name="" >Python
         
         <label for="" id="label-rate">Como você avalia a Trybewarts?</label>
-        <input type="radio" value="1" name="rate" id="">1
-        <input type="radio" value="2" name="rate" id="">2
-        <input type="radio" value="3" name="rate" id="">3
-        <input type="radio" value="4" name="rate" id="">4
-        <input type="radio" value="5" name="rate" id="">5
-        <input type="radio" value="6" name="rate" id="">6
-        <input type="radio" value="7" name="rate" id="">7
-        <input type="radio" value="8" name="rate" id="">8
-        <input type="radio" value="9" name="rate" id="">9
-        <input type="radio" value="10" name="rate" id="">10
+        <input type="radio" value="1" name="rate" class="radio-rate">1
+        <input type="radio" value="2" name="rate" class="radio-rate">2
+        <input type="radio" value="3" name="rate" class="radio-rate">3
+        <input type="radio" value="4" name="rate" class="radio-rate">4
+        <input type="radio" value="5" name="rate" class="radio-rate">5
+        <input type="radio" value="6" name="rate" class="radio-rate">6
+        <input type="radio" value="7" name="rate" class="radio-rate">7
+        <input type="radio" value="8" name="rate" class="radio-rate">8
+        <input type="radio" value="9" name="rate" class="radio-rate">9
+        <input type="radio" value="10" name="rate" class="radio-rate">10
 
         <label class="textarea" for="textarea">Deixe seu comentário:</label>
         <textarea name="" maxlength="500" id="textarea" cols="30" rows="10"></textarea>
@@ -84,8 +82,12 @@
 
         <button type="submit" disabled id="submit-btn">Enviar</button>
       </form>
+      <div id="form-data">
+  
+      </div>
       <img src="images/trybewarts-colored.svg" alt="" id="trybewarts-forms-logo">
     </main>
+
 
     <footer>Direitos reservados à Trybewarts©</footer>
 </body>
