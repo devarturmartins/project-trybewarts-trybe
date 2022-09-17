@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
 main {
   display: flex;
 }
@@ -5,8 +11,56 @@ main {
 .header {
   display: flex;
   background-color: rgb(50, 167, 145);
+  width: 100%;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
 }
 
+.trybewarts-login {
+  display: flex;
+  width: 25%;
+  justify-content: space-between;
+}
+
+
+#btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 37px;
+}
+
+.subject {
+  margin-right: 5px;
+  margin-left: 10px;
+}
+
+.radio-family {
+  margin-right: 5px;
+  margin-left: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+#lado-direito {
+  display: flex;
+  width: 100%;
+  flex-flow: row nowrap;
+}
+
+.radio-rate {
+  display: inline;
+  margin-right: 2px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+
+#counter {
+  display: flex;
+  margin-right: 50px;
+  justify-content: end;
+}
 
 .login {
   display: flex;
@@ -15,6 +69,7 @@ main {
 
 .trybewarts-header-logo {
   display: flex;
+  width: 50px;
 }
 
 
@@ -27,11 +82,9 @@ main {
 #conteiner {
   display: flex;
   flex-wrap: wrap;
+  margin-top: 2%;
+  margin-left: 1%;
   width: 675px;
-}
-
-.trybewarts-login {
-  display: flex;
 }
 
 
@@ -48,6 +101,25 @@ main {
   display: flex;
 }
 
+#agreement {
+  margin-right: 10px;
+}
+
 #form-data {
   width: 675px;
+}
+
+.formulario {
+  margin-top: 1%;
+  margin-left: 3%;
+  border-radius: 3%;
+  box-shadow: 15px 15px 15px 15px rgb(238, 238, 238);
+}
+
+
+.footer {
+  display: flex;
+  font-style: italic;
+  justify-content: center;
+  margin-bottom: 0;
 }
